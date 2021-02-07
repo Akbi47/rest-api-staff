@@ -20,16 +20,19 @@ MYSQL_DB = employee
 Install Dependencies
 npm install
 Run
+
 # Run server
+
 npm start
 
 sample of data
 {
-        "firstname": "stephens",
-        "lastname": "watt",
-        "gender": "male",
-        "phone": 90887890,
-        "email": "ak47@hcmus",
-        "title": "leader",
-        "part": "technical"
+"firstname": "stephens",
+"lastname": "watt",
+"password": "abc123",
+"gender": "male",
+"phone": 90887890,
+"email": "ak47@hcmus",
+"role": "leader",
+"groupid": "technical"
 }
