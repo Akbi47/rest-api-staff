@@ -31,8 +31,22 @@ sample of data
 "lastname": "watt",
 "password": "abc123",
 "gender": "male",
-"phone": 90887890,
+"phone": "190887890",
 "email": "ak47@hcmus",
 "role": "leader",
-"groupid": "technical"
+"groupid": 0
+}
+{
+"firstname": "lena",
+"lastname": "watt",
+"password": "abc456",
+"gender": "female",
+"phone": "908867890",
+"email": "ak36@hcmus",
+"role": "developer",
+"groupid": 0
+}
+{
+"groupid": "t1",
+"part": "technical"
 }

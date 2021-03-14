@@ -6,7 +6,7 @@ import routes from './staff/routes/staffRoute.js' //importing route
 import routeGroup from './group/routes/groupRoute.js'
 dotenv.config()
 let app = express()
-let port = process.env.PORT || 5000
+let port = process.env.PORT || 6000
 
 app.listen(port)
 
@@ -56,5 +56,5 @@ app.get('/get', (req, res) => {
   })
 })
 
-routes(app) //register the
+routes(app) //register
 routeGroup(app)

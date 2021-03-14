@@ -99,8 +99,8 @@ export function get_Staff_By_Id(req, res) {
   }
 }
 export function get_Staff_By_Group(req, res) {
-  if (req.params.groupid) {
-    Staff.getStaffByGroup(req.params.groupid, function (err, data) {
+  if (req.params.group) {
+    Staff.getStaffByGroup(req.params.group, function (err, data) {
       if (err) {
         res.json(err)
       } else {

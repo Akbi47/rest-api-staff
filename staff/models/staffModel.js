@@ -7,8 +7,8 @@ const Staff = {
   getStaffById: function (id, callback) {
     return db.query('select * from staff where Id=?', [id], callback)
   },
-  getStaffByGroup: function (groupid, callback) {
-    return db.query('select * from staff where groupid=?', [groupid], callback)
+  getStaffByGroup: function (group, callback) {
+    return db.query('select * from staff where groupid=?', [group], callback)
   },
   getStaffByEmail: function (email, callback) {
     return db.query('select * from staff where email=?', [email], callback)
